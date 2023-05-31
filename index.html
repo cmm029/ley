@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Mi página web</title>
+  <style>
+    body {
+      background-color: #E89696;
+      color: white;
+      text-align: left;
+      margin-left: 20px;
+      margin-right: 20px;
+    }
+
+    h1 {
+      background-color: #DD0000;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+
+    h2 {
+      font-size: 24px;
+      margin-top: 30px;
+      text-decoration: underline;
+    }
+      
+    ul {
+        list-style-type: none;
+        padding: 0;}
+      
+    nav ul {
+        display: flex;
+      }
+      
+    nav ul li {
+  margin-right: 20px;}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+
+    .image-container {
+      display: flex;
+      align-items: center;
+      margin-top: 20px;
+    }
+
+    .image-container img {
+      width: 200px;
+    }
+
+    .image-container p,
+    .image-container h4,
+    .image-container h5,
+    .image-container h6,
+    .image-container h7,
+    .image-container h8,
+    .image-container h9 {
+      margin-left: 20px;
+      font-size: 14px;
+    }
+  </style>
+</head>
+<body>
+    
+    <header>
+    <nav>
+      <ul>
+        <li><a href="#Definición">Definición</a></li>
+        <li><a href="#La regla de la mano derecha">La regla de la mano derecha</a></li>
+        <li><a href="#Ecuación de continuidad">Ecuación de continuidad</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <h1>
+    Ley de Lorentz
+    <br>
+    <span> ¿Qué les ocurren a las cargas eléctricas cuando se introducen en el seno de un campo magnético? </span>
+  </h1>
+    
+<section id="Definición">
+    <h2 style="font-size: 32px; text-decoration: underline;">Definición</h2>
+    <ul>
+    <li>
+    <div class="image-container">
+    <img src="lorentz.png" alt="Imagen de Lorentz">
+    <div>
+      <p>Una partícula cargada que se encuente en reposo en el interior de un campo magnético no sufre la acción de ninguna fuerza. Otra caso bien distinto se produce cuando la partícula se encuentre en movimiento, ya que por el contrario, en este caso, la partícula si que experimentará la acción de una fuerza magnética que recibe el nombre de fuerza de Lorentz.</p> 
+        
+    <h4>La ley de Lorentz establece que una partícula cargada q que circula a una velocidad  por un punto en el que existe una intensidad de campo magnético, sufrirá la acción de una fuerza denominada fuerza de Lorentz cuyo valor es proporcional al valor de q, y se obtiene por medio de la siguiente expresión:</h4><br>
+      <h5>F = q(E + v x B)</h5>
+    </div>
+  </div>
+        </li>
+    </ul>
+  </section>
+    
+    <section id="La regla de la mano derecha">
+    <h3 style="font-size: 32px; text-decoration: underline;"> La regla de la mano derecha </h3>
+    <ul>
+      <li>
+          <div class="image-container">
+    <img src="mano.png" alt="Imagen de la regla de la mano derecha">
+    <div>
+      <p>De una forma gráfica es posible determinar la dirección y sentido de la fuerza de Lorentz aplicando la regla de la mano derecha. Para ello sitúa tu mano derecha de tal forma que tu dedo índice coincida con la dirección y sentido del vector velocidad, el medio (o corazón) coincida con la dirección y sentido del campo magnético. Si la carga es positiva, tu dedo pulgar estará indicando la dirección y sentido de dicha fuerza. Si es negativa estará indicando su dirección aunque el sentido será el contrario del que marca tu pulgar.</p>
+      </div>
+    </div>
+      <h6 style="font-size: 14px;"> Según la expresión de la ley de Lorentz la fuerza de Lorentz será: </h6>
+      <h7><u>Nula: </u></h7><br>
+      <h8>Si la partícula no posee carga; q = 0 -> F = 0</h8><br>
+      <h9>Si la partícula está en reposo; v = 0 -> F = 0. </h9><br>
+      <h10>Si la velocidad de la partícula es paralela al campo; F = |q|·v·B·sen 0 -> F = 0 </h10><br>
+      <h11><u>Máxima: </u></h11><br> 
+      <h12>Si v y B son perpendiculares ( α = 90º ) entonces F = |q|·v·B·sin 90 = |q|·v·B. </h12><br>
+      </li>
+    </ul>
+  </section>
+    
+    
+    <section id="Ecuación de continuidad">
+   <h13 style="font-size: 32px; text-decoration: underline;">Ecuación de continuidad </h13><br>
+    <ul>
+      <li>
+           <p>La ecuación de continuidad es una ecuación que describe el transporte de una cierta cantidad. Es una ecuación particularmente simple y potente cuando se aplica a una cantidad que se conserva, en este caso nos concierne la carga eléctrica. 
+        Una variedad extensa de fenómenos físicos pueden ser descritos usando la ecuación de continuidad. En este caso, se demostrará la ecuación de continuidad para el campo electromagnético utilizando la invarianza gauge de la acción asociada: </p>
+    
+    <h14>Dada la cantidad lagrangiana</h14><br>
+    <div class="image-container">
+        <img src="formula1.png" alt=" ">
+    </div>
+    <h15> Realizando la variación de la acción, nos quedaría algo tal que:</h15><br>
+    <div class="image-container">
+        <img src="formula2.png" alt=" ">
+    </div>
+    <h16>Dada la cantidad lagrangiana</h16><br>
+    <div class="image-container">
+        <img src="formula3.png" alt=" ">
+    </div>
+    <h17>Esta ecuación, que es realmente una condición expresada como una contracción tensorial, compactifica una suma de componentes, que, si se despliega, hallamos su forma equivalente (y más popular):</h17><br>
+    <div class="image-container">
+        <img src="formula4.png" alt=" ">
+    </div>
+      </li>
+    </ul>
+  </section>
+
+     
+
+    
+   
+
+
+</body>
+</html> 
